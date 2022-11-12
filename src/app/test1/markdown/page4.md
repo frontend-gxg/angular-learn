@@ -1,4 +1,4 @@
-Below is the answer from [Consequences resulting from Yitang Zhang's latest claimed results on Landau-Siegel zeros](https://mathoverflow.net/questions/433949/consequences-resulting-from-yitang-zhangs-latest-claimed-results-on-landau-sieg):
+Below is the answer from [Consequences resulting from Yitang Zhang's latest claimed results on Landau-Siegel zeros](https://mathoverflow.net/questions/433949/consequences-resulting-from-yitang-zhangs-latest-claimed-results-on-landau-sieg).
 
 *******************
 
@@ -17,7 +17,7 @@ When $q$ is not fixed, Page (1935) proved the following general result:
 **Theorem 1 (Page):** *There exists some absolute and effective $c_0>0$ such that for all $(a,q)=1$:*
 
 $$
-\psi(x;q,a)={x\over\varphi(q)}-\color{blue}{{\chi(a)x^\beta}\over\varphi(q)\beta}+O\{xe^{-c_0\sqrt{\log x}}\},\tag2
+\psi(x;q,a)={x\over\varphi(q)}-{\color{blue}{{\chi(a)x^\beta}\over\varphi(q)\beta}}+O\\{xe^{-c_0\sqrt{\log x}}\\},\tag2
 $$
 
 *where $\chi$ denotes the exceptional character and $\beta$ denotes the Siegel zero. The blue term would be dropped if there are no exceptional characters modulo $q$.*
@@ -37,7 +37,7 @@ If $q\le(\log x)^{2/\varepsilon}$, then the right hand side becomes $\ll xe^{-A_
 **Theorem 3 (Siegel-Walfisz):** *For any $M>0$ there exists some $C_M$ such that for all $q\le(\log x)^M$ and $(a,q)=1$ there is*
 
 $$
-\psi(x;q,a)={x\over\varphi(q)}+O\{e^{-C_M\sqrt{\log x}}\},\tag3
+\psi(x;q,a)={x\over\varphi(q)}+O\\{e^{-C_M\sqrt{\log x}}\\},\tag3
 $$
 
 *where the O-constant is absolute.*
@@ -69,7 +69,7 @@ If $(\log q)^{A+2}\le\sqrt{\log x}$, then the right hand side becomes $\ll xe^{-
 **Theorem 5:** *Let $A$ be as in Theorem 4. There exists some absolute $c_0>0$ such that for all $q\le e^{(\log x)^{1/(2A+4)}}$ and $(a,q)=1$, we have*
 
 $$
-\psi(x;q,a)={x\over\varphi(q)}+O\{e^{-c_0\sqrt{\log x}}\}.\tag4
+\psi(x;q,a)={x\over\varphi(q)}+O\\{e^{-c_0\sqrt{\log x}}\\}.\tag4
 $$
 
 ## Asymptotic formulas valid for all $q\ge1$.
@@ -85,13 +85,13 @@ $$
 Combining this with (3), we see that Theorem 3 indicates that
 
 $$
-\psi(x;q,a)={x\over\varphi(q)}+O_N\{x(\log x)^{-N}\}\quad(N>0).\tag5
+\psi(x;q,a)={x\over\varphi(q)}+O_N\\{x(\log x)^{-N}\\}\quad(N>0).\tag5
 $$
 
 If the trivial upper bound is juxtaposed with (4), then we see that there exists some absolute and effective $c_0>0$ such that
 
 $$
-\psi(x;q,a)={x\over\varphi(q)}+O\{xe^{-c_0(\log x)^{1/(2A+4)}}\},
+\psi(x;q,a)={x\over\varphi(q)}+O\\{xe^{-c_0(\log x)^{1/(2A+4)}}\\},
 $$
 
 which has a substantially better error term than (5).

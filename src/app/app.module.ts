@@ -18,6 +18,7 @@ import { NzIconModule } from 'ng-zorro-antd/icon';
 
 import { MarkdownModule, MarkedOptions, MarkedRenderer } from 'ngx-markdown';
 
+import { SharedModule } from './shared/shared.module';
 import { Test1Module } from './test1/test1.module';
 
 registerLocaleData(zh);
@@ -66,6 +67,7 @@ export function markedOptionsFactory(): MarkedOptions {
         useFactory: markedOptionsFactory,
       },
     }),
+    SharedModule,
     Test1Module,
   ],
   providers: [
